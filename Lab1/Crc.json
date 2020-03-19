@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Postać",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Tworzy nową postać",
+      "Podstawowe informacje o postaci (zdrowie, punkty ataku...)",
+      ""
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Walka",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Przeprowadzenie walki między dwoma postaciami"
+    ],
+    "collaborators": [
+      "Postać"
+    ]
+  },
+  {
+    "name": "Broń",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Stworzenie nowej broni",
+      "Przechowywanie informacji o broni (obrażenia, typ...)"
+    ],
+    "collaborators": [
+      "Postać"
+    ]
+  },
+  {
+    "name": "Magia",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Wylosowanie czaru przy użyciu kostki k20"
+    ],
+    "collaborators": [
+      "Czar",
+      "Postać"
+    ]
+  },
+  {
+    "name": "Czar",
+    "superclasses": "Magia",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Stworzenie nowego czaru",
+      "Przechowywanie informacji o czarze (moc, wymagana ilość many)"
+    ],
+    "collaborators": [
+      ""
+    ]
+  }
+]
